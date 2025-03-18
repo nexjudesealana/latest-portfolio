@@ -36,6 +36,39 @@ body {
   font-family: "Centra", sans-serif !important;
 }
 
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.blog-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.blog-image {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.blog-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+
+.section-spacing {
+  padding-top: 80px; /* Adjust value as needed */
+  padding-bottom: 80px; /* Adds space between sections */
+}
+
+
 h1,
 h2,
 h3,
